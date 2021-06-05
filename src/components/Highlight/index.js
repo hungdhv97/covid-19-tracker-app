@@ -3,7 +3,6 @@ import React from 'react';
 import HighlightCard from './HighlightCard.js';
 
 function Highlight({ summary }) {
-    console.log({ summary })
     return (
         <Grid container spacing={3}>
             {summary.map((data) => (
